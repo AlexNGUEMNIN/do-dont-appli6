@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Do-Dont App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/accueil.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Chargement...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="#index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text-primary"><i class="fa fa-calendar me-3"></i>DD-App</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#index" class="nav-item nav-link active">Accueil</a>
+                <a href="#apropos" class="nav-item nav-link">A Propos</a>
+                <a href="#fonctionnalites" class="nav-item nav-link">Fonctionnalites</a>
+                <a href="#equipe" class="nav-item nav-link">Equipe</a>
+                <a href="#temoignages" class="nav-item nav-link">Temoignages</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="C:\Users\Morelle WANGA\Documents\do-dont-app.zip" download="do-dont-app.zip" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block" id="downloadButton">Télécharger<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-primary p-0 mb-5" id="index">
+        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                <!-- Gérez vos tâches, restez orgonisés et productifs. Votre Guide Quotidien vers l’Efficacité ! -->
+                <h1 class="display-4 text-white mb-5">Votre Allié pour une Organisation Impeccable</h1>
+                <div class="row g-4">
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
+                            <p class="text-light mb-0">Etudiants</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">123445</h2>
+                            <p class="text-light mb-0">Tâches</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">4</h2>
+                            <p class="text-light mb-0">Experts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel header-carousel">
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mt-5 mb-0">Planification</h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mt-5 mb-0">Notification</h1>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                        <div class="owl-carousel-text">
+                            <h1 class="display-1 text-white mt-5 mb-0">Productivité</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="apropos">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/about-1.jpg" alt="">
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/about-2.jpg" alt=""
+                            style="margin-top: -25%;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">A Propos</p>
+                    <h1 class="mb-4">C'est quoi Do-Dont App ? Découvrez la !</h1>
+                    <p>L’application Do-Dont a été créée avec passion par notre équipe dévouée. Notre mission est de
+                        simplifier la gestion des tâches quotidiennes pour les étudiants et de les aider à rester
+                        organisés.</p>
+                    <p class="mb-4">Nous croyons que la productivité ne devrait pas être compliquée. Notre vision est de
+                        permettre aux étudiants de se concentrer sur l’essentiel en gérant leurs tâches de manière
+                        intuitive.
+                    </p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Simplicité, Interface conviviale</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Efficacité, fonctionnalités simples</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>Engagement</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Voir Plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Fonctionnalités Start -->
+    <!-- Synchronisation multiplateforme : Si possible, permettez aux utilisateurs d’accéder à leurs listes de tâches depuis différents appareils (ordinateurs, smartphones, tablettes). La synchronisation des données entre les plates-formes est essentielle pour une expérience utilisateur fluide.
+Personnalisation de l’interface utilisateur : Offrez des options de personnalisation pour que les utilisateurs puissent adapter l’apparence de l’application à leurs préférences. Cela peut inclure des thèmes, des couleurs et des mises en page personnalisables. -->
+    <div class="container-xxl py-5" id="fonctionnalites">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Fonctionnalités</p>
+                <h1>Ce que propose Do-Dont App</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fas fa-list-alt text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Création de listes de tâches</h4>
+                        <p class="mb-4">Les utilisateurs peuvent créer des listes de tâches personnalisées, telles que
+                            “Devoirs”, “Projets”, “Lectures”, etc.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fa fa-tasks text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Ajout, édition et suppression de tâches</h4>
+                        <p class="mb-4">Possibilité d'ajouter de nouvelles tâches, modifier les détails et supprimer des
+                            tâches terminées ou inutiles.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fa fa-calendar-times text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Attribution de dates d’échéance aux tâches</h4>
+                        <p class="mb-4">Définir des dates limites pour les tâches, ce qui aidera à prioriser et à
+                            planifier le travail.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fa fa-check-square text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Marquage des tâches</h4>
+                        <p class="mb-4">Les utilisateurs devraient pouvoir marquer comme terminée une tâche accomplie.
+                        </p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fa fa-eye text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Visualisation des tâches</h4>
+                        <p class="mb-4">Les utilisateurs ont la possibilité de visualisation des tâches par liste ou par
+                            date d'échéance.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px;">
+                            <i class="fa fa-bell text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Notifications et rappels</h4>
+                        <p class="mb-4">Intégration des notifications pour rappeler aux utilisateurs leurs tâches à
+                            venir.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fonctionnalités End -->
+
+    <!-- Team Start -->
+    <!-- Alice: La créatrice de l’interface utilisateur. Elle est obsédée par la simplicité et la convivialité.
+Bob: Le magicien du code. Il transforme nos idées en réalité avec JavaScript et Bootstrap.
+Charlie: Le gardien des données. Il veille à ce que vos tâches soient stockées en toute sécurité. -->
+    <div class="container-xxl py-5" id="equipe">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Equipe</p>
+                <h1>Notre équipe de développeurs</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/alex.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Morelle Wanga</h5>
+                            <p class="text-primary">Développeur</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/alex.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Alex Nguimnin</h5>
+                            <p class="text-primary">Développeur</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/alex.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Ivan Ngandjui</h5>
+                            <p class="text-primary">Développeur</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/alex.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Basile Mouafo</h5>
+                            <p class="text-primary">Développeur</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5" id="temoignages">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Témoignages</p>
+                <h1>Ce que disent nos utilisateurs!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>La Do-Dont App est mon compagnon quotidien. Je peux facilement suivre mes lectures, mes
+                            devoirs et mes projets grâce à cette application. L’ajout et la suppression de tâches sont
+                            simples, et je suis ravie de pouvoir visualiser mes listes par date d’échéance.</p>
+                        <h5 class="mb-1">Maiva Dzoyong</h5>
+                        <span class="fst-italic">Niveau 3</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>La Do-Dont App est un outil indispensable pour rester organisé. J’aime pouvoir créer des
+                            listes de tâches personnalisées et définir des dates d’échéance. Cela m’aide à gérer mon
+                            temps et à ne rien oublier. Je recommande vivement cette application à tous les étudiants !
+                        </p>
+                        <h5 class="mb-1">Luther Tchagang</h5>
+                        <span class="fst-italic">Niveau 4</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
+                        style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Grâce à la Do-Dont App, Je peux maintenant organiser mes projets, mes devoirs et mes lectures
+                            de manière efficace. L’interface est simple à utiliser, et j’apprécie particulièrement la
+                            fonctionnalité de marquage des tâches comme terminées. Merci pour cette solution pratique !
+                        </p>
+                        <h5 class="mb-1">Loic Koudjo</h5>
+                        <span class="fst-italic">Terminale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5" id="contact">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Contact</p>
+                <h1>Une question? Contactez-nous !</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-light rounded p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="nom" placeholder="Votre Nom">
+                                        <label for="nom">Votre Nom</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Votre Addresse Mail">
+                                        <label for="email">Votre Addresse Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="sujet" placeholder="Sujet">
+                                        <label for="sujet">Sujet</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Laissez un message ici" id="message"
+                                            style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100" style="min-height: 400px;">
+                        <iframe class="rounded w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1762.9679943518263!2d11.389484494689802!3d3.883778804699522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcd3bb4f34f8f%3A0x2b8abbec5ff98df2!2sINSTITUT%20SAINT%20JEAN%20(SITE%20D&#39;EYANG)!5e0!3m2!1sfr!2scm!4v1714757709519!5m2!1sfr!2scm"
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Addresses</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>IUSJ, Eyang, Lobo, Cameroun</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+237 652 853 773</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>wangamorelle@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Liens</h5>
+                    <a class="btn btn-link" href="#apropos">A Propos</a>
+                    <a class="btn btn-link" href="#fonctionnalites">Fonctionnalités</a>
+                    <a class="btn btn-link" href="#equipe">Equipe</a>
+                    <a class="btn btn-link" href="#temoignages">Témoignages</a>
+                    <a class="btn btn-link" href="#contact">Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Legal & Support</h5>
+                    <a class="btn btn-link" href="">Termes & Conditions</a>
+                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Cookies</a>
+                    <a class="btn btn-link" href="">Droits d'auteur</a>
+                    <a class="btn btn-link" href="">FAQ</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Infolettre</h5>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Adresse mail">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'abonner</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="">Do-Dont App</a>, Tous droits reservés.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Réalisé par <a class="border-bottom">Wanga</a>
+                        </br>
+                        Distribué par <a class="border-bottom" target="_blank">Morelle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/accueil.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <!-- <script>
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            // Créer un nouvel objet JSZip
+            var zip = new JSZip();
+
+            // Ajouter un fichier (par exemple, un texte) au dossier zip
+            zip.file("hello.txt", "Hello World\n");
+
+            // Générer le contenu du fichier zip
+            zip.generateAsync({type:"blob"}).then(function(content) {
+                // Créer un URL blob à partir du contenu du fichier zip
+                var url = window.URL.createObjectURL(content);
+
+                // Créer un lien <a> pour télécharger le fichier zip
+                var link = document.createElement('a');
+                link.href = url;
+                link.download = 'archive.zip';
+
+                // Déclencher un clic sur le lien pour démarrer le téléchargement
+                link.click();
+
+                // Libérer l'URL blob après le téléchargement
+                window.URL.revokeObjectURL(url);
+            });
+        });
+    </script> -->
+</body>
+
+</html>
